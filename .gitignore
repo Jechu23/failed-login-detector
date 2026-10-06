@@ -1,0 +1,4 @@
+raw_*.log
+*.csv
+__pycache__/
+.venv/
