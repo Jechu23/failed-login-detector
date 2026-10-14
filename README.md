@@ -2,7 +2,8 @@
 
 A small Python tool that reads OpenSSH logs, groups failed logins into bursts per source IP, and flags likely **brute-force** and **username-enumeration** activity.
 
-Maps to MITRE ATT&CK **T1110 – Brute Force**. Built as a cybersecurity learning project (Graduate Certificate in Cyber Security, University of Wollongong).
+Maps to MITRE ATT&CK **T1110 – Brute Force**. Built as a cybersecurity learning project.
+![SSH Failed-Login Detector overview](docs/overview.png)
 
 ## How it works
 1. Reads `Failed password` events from `journalctl` or syslog output (journalctl default and `short-iso` timestamps are both supported).
